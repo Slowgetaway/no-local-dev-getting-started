@@ -15,7 +15,7 @@ class Contact < ActiveRecord::Base
 end
 
  "/contacts" do
-  @contacts = Contact.all
+  @contacts = 	Heroku_Test__c.all
   erb :index
 end
 
